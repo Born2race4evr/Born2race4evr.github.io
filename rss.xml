@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Biblioteca Cultural - Catálogo de Libros y Servicios</title>
+        <link>https://Born2race4evr.github.io</link>
+        <description>Catálogo de libros recomendados, servicios y novedades de nuestra biblioteca cultural.</description>
+        <language>es-ES</language>
+        <image>
+            <title>Biblioteca Cultural</title>
+            <url>https://Born2race4evr.github.io/Project_img/biblio.webp</url>
+            <link>https://Born2race4evr.github.io</link>
+            <width>200</width>
+            <height>200</height>
+        </image>
+
+        <!-- Items for the catalog -->
+        <item>
+            <title>Todo arde - Juan Gómez-Jurado</title>
+            <link>https://Born2race4evr.github.io/Project_img/image-1-scaled.webp</link>
+            <description>Thriller apasionante del aclamado autor Juan Gómez-Jurado.</description>
+        </item>
+
+        <item>
+            <title>Revolución - Arturo Pérez-Reverte</title>
+            <link>https://Born2race4evr.github.io/Project_img/revolucion.webp</link>
+            <description>Una novela histórica que nos transporta a la época de la Revolución Mexicana.</description>
+        </item>
+
+        <item>
+            <title>Los vencejos - Fernando Aramburu</title>
+            <link>https://Born2race4evr.github.io/Project_img/9788411072229-image.webp</link>
+            <description>Nueva obra del autor de Patria que explora las complejidades de la vida moderna.</description>
+        </item>
+
+        <item>
+            <title>El italiano - Arturo Pérez-Reverte</title>
+            <link>https://Born2race4evr.github.io/Project_img/elitaliano.webp</link>
+            <description>Una historia de amor, mar y guerra por el reconocido autor Arturo Pérez-Reverte.</description>
+        </item>
+
+        <!-- Items for the background images -->
+        <item>
+            <title>Interior de la Biblioteca</title>
+            <link>https://Born2race4evr.github.io/Project_img/_d3fd3151-8daf-4fd5-b39b-13e127ccb729.webp</link>
+            <description>Vista del interior de nuestra biblioteca cultural.</description>
+        </item>
+
+        <item>
+            <title>Textura de Fondo</title>
+            <link>https://Born2race4evr.github.io/Project_img/pared.webp</link>
+            <description>Textura de fondo utilizada en el diseño de la biblioteca.</description>
+        </item>
+
+        <!-- Items for the services -->
+        <item>
+            <title>Servicios de la Biblioteca</title>
+            <link>https://Born2race4evr.github.io/servicios.html</link>
+            <description>Descubre los servicios que ofrecemos en nuestra biblioteca, incluyendo préstamos de libros, salas de lectura y más.</description>
+        </item>
+
+        <!-- Items for the main page -->
+        <item>
+            <title>Bienvenido a Nuestra Biblioteca</title>
+            <link>https://Born2race4evr.github.io/index.html</link>
+            <description>Explora nuestra colección de libros y sumérgete en el mundo de la literatura.</description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Cultural</title>
+    <link rel="stylesheet" href="biblioteca.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<header>
+    <div id="div_bar">
+        <img src="Project_img/biblio.webp" alt="" id="maserati">
+        <div id="welcome">
+            <h1 id="h1_bar">Catalogo</h1>
+        </div>
+        <div id="menu">
+            <div id="inicio" class="menu_element">
+                <a href="index.html" id="inicio_link">Inicio</a>
+            </div>
+            <div id="servicios" class="menu_element">
+                <a href="servicios.html" id="servicios_link">Servicios</a>
+            </div>
+            <div id="iconos">
+                <div><i class="fa fa-book icon"></i></div>
+                <div><i class="fa fa-user-circle-o icon"></i></div>
+                <div><i class="fa fa-calendar icon"></i></div>
+                <div><i class="fa fa-sign-out icon"></i></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div id="products_catalogo">
+        </section>
+        <div id="products_contacto">
+            <form action="/enviar" method="POST">
+                <legend>Información de Contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto">
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="div_downbar">
+            <div>
+                <p>© 2024 Biblioteca Cultural. Derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
